@@ -1,4 +1,19 @@
 const Footer = () => {
+  const someVeryLongCondition = () => {
+    return true;
+  };
+  const doSomething = () => {
+    console.log("Doing something");
+  };
+  const bar = (foo) => {
+    console.log(foo);
+  };
+  const foo = [1, 2, 3, 4, 5];
+
+  if (someVeryLongCondition()) doSomething();
+
+  for (let i = 0; i < foo.length; i++) bar(foo[i]);
+
   return (
     <>
       <footer className="bg-gray-900" aria-labelledby="footer-heading">
