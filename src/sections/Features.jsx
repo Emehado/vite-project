@@ -1,11 +1,12 @@
 const Features = () => {
-  const x1 = "a";
-  const x2 = "b";
-  const x3 = "c";
-  const a1 = new Array(x1, x2, x3);
-  const a2 = new Array(x1, x2);
-  const a3 = new Array(x1);
-  const a4 = new Array();
+  // const x1 = "a";
+  // const x2 = "b";
+  // const x3 = "c";
+  // const a1 = new Array(x1, x2, x3);
+  // const a2 = new Array(x1, x2);
+  // const a3 = new Array(x1);
+  // const a4 = new Array();
+
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
