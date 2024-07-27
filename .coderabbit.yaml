@@ -1,19 +1,22 @@
 language: en-US
-tone_instructions: ''
+tone_instructions: ""
 early_access: true
 enable_free_tier: true
 reviews:
   profile: chill
   request_changes_workflow: false
   high_level_summary: true
-  high_level_summary_placeholder: '@coderabbitai summary'
-  auto_title_placeholder: '@coderabbitai'
+  high_level_summary_placeholder: "@coderabbitai summary"
+  auto_title_placeholder: "@coderabbitai"
   review_status: true
   poem: false
   collapse_walkthrough: false
   sequence_diagrams: true
   path_filters: []
-  path_instructions: []
+  path_instructions:
+    - path: "**/*.js"
+      instructions: |
+        Review the JavaScript code against the Google JavaScript style guide and point out any mismatches
   abort_on_close: true
   auto_review:
     enabled: true
