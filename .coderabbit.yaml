@@ -14,7 +14,7 @@ reviews:
   sequence_diagrams: true
   path_filters: []
   path_instructions:
-    - path: "**/*.js"
+    - path: "**/*.jsx"
       instructions: |
         Review the JavaScript code against the Google JavaScript style guide and point out any mismatches
   abort_on_close: true
