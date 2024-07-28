@@ -7,6 +7,21 @@ const Features = () => {
   // const a3 = new Array(x1);
   // const a4 = new Array();
 
+  const someVeryLongCondition = () => {
+    return true;
+  };
+  const doSomething = () => {
+    console.log("Doing something");
+  };
+  const bar = (foo) => {
+    console.log(foo);
+  };
+  const foo = [1, 2, 3, 4, 5];
+
+  if (someVeryLongCondition()) doSomething();
+
+  foo.forEach(bar);
+
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
