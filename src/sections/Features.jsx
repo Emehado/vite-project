@@ -20,7 +20,7 @@ const Features = () => {
 
   if (someVeryLongCondition()) doSomething();
 
-  for (let i = 0; i < foo.length; i++) bar(foo[i]);
+  foo.forEach(bar);
 
   return (
     <div className="bg-white py-24 sm:py-32">
